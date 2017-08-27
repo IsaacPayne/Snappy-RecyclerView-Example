@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Snappy Recycler View</string>
+
+    <string name="pick_your_things">Pick your favourite things</string>
+    <string name="confirm_your_choices">Confirm your choices!</string>
+    <string name="a_simple_item_in_a_recycler_view">A simple item in a recycler view</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="android.view.View" />
+        <import type="com.payne.isaac.snappyRecyclerViewExample.models.ItemModel" />
+        <variable name="item" type="com.payne.isaac.snappyRecyclerViewExample.models.ImageItemModel"/>
+    </data>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/a_simple_item_in_a_recycler_view"
+        android:background="@{context.getResources().getDrawable(item.imageRes)}"
+        tools:background="@drawable/circle_image"/>
+</layout>
