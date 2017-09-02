@@ -9,9 +9,11 @@ Also uses the distance from the center to fade out and scale each item on scroll
 
 ## Limitations
  - Currently only works in portrait
+ - `scrollToPosition` is broken as it uses the the average size of an item and the first and last items are bigger than the rest
  
 ## Future Work
  - Add a `snappedToItem` listener
+ - Fix `scrollToPosition`, by manually calculating the offset
  
 ## Screenshots
 ![Sample screenshot](https://raw.githubusercontent.com/IsaacPayne/Snappy-RecyclerView-Example/master/screenshots/screenshot.png)
